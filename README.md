@@ -48,9 +48,11 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  ## 🖥️ Telas do Aplicativo
 
 1. **Tela Principal**
-![Texto Alternativo](URL_da_Imagem)
+   
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/cadastro.png?raw=true)
 Na tela principal, o usuário insere seu peso (em kg) e altura (em metros), e o app calcula e exibe o IMC.
- 
+
+
 ![Figura 1: Exemplo da tela principal do aplicativo](caminho/para/a/imagem.png)
  *Figura 1: Exemplo da tela principal do aplicativo.*
  
