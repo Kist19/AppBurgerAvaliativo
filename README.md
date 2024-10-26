@@ -49,16 +49,27 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 1. **Tela Principal**
    
-![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/cadastro.png?raw=true)
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/principal.png?raw=true)
+
 Na tela principal, o usuário insere seu peso (em kg) e altura (em metros), e o app calcula e exibe o IMC.
 
 
-![Figura 1: Exemplo da tela principal do aplicativo](caminho/para/a/imagem.png)
- *Figura 1: Exemplo da tela principal do aplicativo.*
+2. **Tela Cadastro**
+
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/cadastro.png?raw=true)
+
+jhaskjdhaskjdjkashdhasdhasjhdjkashkjdhaskjhdkjasdjkaskjdhkasjhdjkashkjdhas
+
+
+3. **Telas de Catalogo**
+
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoa.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogob.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoc.png?raw=true)
+
+ajshdkjashdkjashdkjhaskdhkasjhdkjhaskjdhaskhdjashjkdhaskjdh
  
 ## 👨‍💻 Desenvolvedores –
 
-**Seu Nome** - Desenvolvedor - [GitHub](https://github.com/seuusuario)
+**Arthur Kist** - Desenvolvedor - [GitHub](https://github.com/seuusuario)
  
  ## 📄 Licença
  
