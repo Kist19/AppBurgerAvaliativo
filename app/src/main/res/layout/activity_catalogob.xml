@@ -11,15 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="serif"
-        android:text="Catálogo - Soda"
+        android:text="Catálogo - Drink"
         android:textColor="#2A2C41"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btPedido2" />
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -42,8 +42,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
-                android:text="Agua mineral - 500 ml"
-                android:textColor="#2A2C41" />
+                android:text="Água mineral - 500 ml"
+                android:textColor="#2A2C41"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -61,6 +64,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
                     android:layout_weight="1"
                     android:textColor="#2A2C41"
                     android:text="R$ 4,50 reais" />
@@ -71,7 +75,10 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
                 android:text="Refrigerante Sprite - 350 ml"
-                android:textColor="#2A2C41" />
+                android:textColor="#2A2C41"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,6 +96,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
                     android:layout_weight="1"
                     android:textColor="#2A2C41"
                     android:text="R$ 5,50 reais" />
@@ -99,7 +107,10 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
                 android:text="Regrigerante Fanta - 350 ml"
-                android:textColor="#2A2C41" />
+                android:textColor="#2A2C41"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -117,6 +128,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
                     android:layout_weight="1"
                     android:textColor="#2A2C41"
                     android:text="R$ 5,50 reais" />
@@ -127,7 +139,10 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
                 android:text="Refrigerante coca-cola - 1 L"
-                android:textColor="#2A2C41" />
+                android:textColor="#2A2C41"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -145,6 +160,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
                     android:layout_weight="1"
                     android:textColor="#2A2C41"
                     android:text="R$ 11,99 reais" />
@@ -179,5 +195,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <Button
+        android:id="@+id/btPedido2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FF724C"
+        android:text="Fazer pedido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

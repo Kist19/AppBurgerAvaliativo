@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="serif"
         android:text="Catálogo - Burger"
@@ -20,7 +20,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btPedido1" />
 
 
     <ScrollView
@@ -43,14 +43,17 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
                 android:fontFamily="serif"
-                android:text="Hamburguer mata fome"
+                android:inputType="none"
+                android:text="Hambúrguer mata fome"
                 android:textColor="#2A2C41" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -64,21 +67,34 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="#2A2C41"
-                    android:text="R$ 49,99 reais" />
+                    android:fontFamily="serif"
+                    android:text="R$ 49,99 reais"
+                    android:textColor="#2A2C41" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Ingredientes do Hambúrguer:\n\n- Pão de hambúrguer\n- 2 carnes de hambúrguer (150g)\n- Queijo cheddar\n- Alface\n- Tomate\n- Cebola\n- Bacon\n- Maionese"
+                    android:textColor="#2A2C41" />
             </LinearLayout>
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
                 android:fontFamily="serif"
-                android:text="Hamburguer bom pra saúde"
+                android:inputType="none"
+                android:text="Hambúrguer bom pra saúde"
                 android:textColor="#2A2C41" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -92,21 +108,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="#2A2C41"
-                    android:text="R$ 29,99 reais" />
+                    android:fontFamily="serif"
+                    android:text="R$ 29,99 reais"
+                    android:textColor="#2A2C41" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Ingredientes do Hambúrguer:\n\n- Pão de hambúrguer\n- Carne de hambúrguer (150g)\n- Queijo cheddar\n- Alface\n- Tomate\n- Cebola roxa\n- Picles"
+                    android:textColor="#2A2C41" />
+
             </LinearLayout>
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
                 android:fontFamily="serif"
-                android:text="Hamburguer água na boca"
+                android:inputType="none"
+                android:text="Hambúrguer água na boca"
                 android:textColor="#2A2C41" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -120,21 +150,34 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="#2A2C41"
-                    android:text="R$ 39,99 reais" />
+                    android:fontFamily="serif"
+                    android:text="R$ 39,99 reais"
+                    android:textColor="#2A2C41" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Ingredientes do Hambúrguer:\n\n- Pão de hambúrguer\n- Carne de hambúrguer (150g)\n- Queijo cheddar\n- Alface\n- Tomate\n- Ovo mexido\n- Katchup"
+                    android:textColor="#2A2C41" />
             </LinearLayout>
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
                 android:fontFamily="serif"
-                android:text="Hamburguer popó"
+                android:inputType="none"
+                android:text="Hambúrguer popó"
                 android:textColor="#2A2C41" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -147,10 +190,21 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
                     android:layout_weight="1"
-                    android:textColor="#2A2C41"
-                    android:text="R$ 27,87 reais" />
+                    android:text="R$ 27,87 reais"
+                    android:textColor="#2A2C41" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Ingredientes do Hambúrguer:\n\n- Pão de hambúrguer\n- Carne de frango (150g)\n- Queijo cheddar\n- Alface\n- Tomate\n- Maionese    "
+                    android:textColor="#2A2C41" />
             </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
@@ -182,5 +236,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <Button
+        android:id="@+id/btPedido1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FF724C"
+        android:text="Fazer pedido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
