@@ -1,6 +1,6 @@
 # **App Burger**
 
-> Um aplicativo Android de delivery.
+> Aplicativo de delivery.
 
 ## 📱 Descrição
 
@@ -97,25 +97,23 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  
  ## 🖥️ Telas do Aplicativo
 
-1. **Tela Principal**
-   
-![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/principal.png?raw=true)
+## 1. Tela Principal
 
 Permite que o cliente faça seu cadastro, para que logo em seguida com seu E-mail e senha, possa acessar outras telas.
 
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/principal.png?raw=true)
 
-2. **Tela Cadastro**
+## 2. Tela Cadastro
+
+Cadastro do cliente.
 
 ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/cadastro.png?raw=true)
 
-
-
-
-3. **Telas de Catalogo**
-
-![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoa.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogob.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoc.png?raw=true)
+## 3. Telas de Catalogo
 
 Catálogos que permitem o usúario buscar por seus pedidos atravez dos botões **Voltar** e **Mais...**, com a opção de contato no botão **Fazer pedido**.
+
+![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoa.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogob.png?raw=true) ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/catalogoc.png?raw=true)
 
 ## 👨‍💻 Desenvolvedores –
 
