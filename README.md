@@ -11,6 +11,7 @@ O **App Burger** possibilita ao usuário realizar seu cadastro, dando-lhe acesso
 - [x] Entrada de dados (Nome, E-mail, Senha e Telefone)
 - [x] Cadastro de usuário
 - [x] Contato para pedido
+- [x] Catálogo de lanches
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -19,7 +20,7 @@ O **App Burger** possibilita ao usuário realizar seu cadastro, dando-lhe acesso
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
 - [x] **TextView** e **EditText** para entrada e exibição de dados
-- [x] **Button**   para o cadastro, o acesso e o contato do estabelecimento
+- [x] **Button** para o cadastro, o acesso e o contato do estabelecimento
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -39,55 +40,27 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ```bash
 ├── app
-
-
 │   ├── src
-
-
 │   │   ├── main
-
-
-│   │   │   ├──
-java/com/example/imccalculator
-
-
-│   │   │  
-│   ├── MainActivity.java      
-# Atividade principal com cálculo do IMC
-
-
-│   │   │   ├──
-res
-
-
-│   │   │  
-│   ├── layout
-
-
-│   │   │  
-│   │   ├── activity_main.xml   #
-Layout da tela principal
-
-
-│   │   │  
-│   └── values
-
-
-│   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
-│   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│   │   │  ├── java/br/ulbra/appburgueravaliativo
+│   │   │  │  ├── MainActivity.java           # Atividade principal com AppBurgerAvaliativo
+│   │   │  │  ├── CatalogoaActivity.java
+│   │   │  │  ├── CatalogobActivity.java
+│   │   │  │  ├── CatalogocActivity.java
+│   │   │  │  ├── DBHelper.java
+│   │   │  │  ├── CadastroActivity.java
+│   │   │  ├── res
+│   │   │  │   ├── layout
+│   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   │   ├── activity_cadastro.xml
+│   │   │  │   │   ├── activity_catalogoa.xml
+│   │   │  │   │   ├── activity_catalogob.xml
+│   │   │  │   │   ├── activity_catalogoc.xml
+│   │   │  │   └── values
+│   │   │  │       ├── strings.xml           # Strings usadas no app
+│   │   │  │       ├── colors.xml            # Cores definidas no projeto
+│   └── build.gradle                         # Configuração do Gradle
+└── README.md                                # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -99,7 +72,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1. Tela Principal
 
-Permite que o cliente faça seu cadastro, para que logo em seguida com seu E-mail e senha, possa acessar outras telas.
+Permite que o cliente faça seu cadastro, para que logo em seguida com seu **E-mail** e **senha**, possa acessar outras telas.
 
 ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/principal.png?raw=true)
 
@@ -119,4 +92,6 @@ Catálogos que permitem o usúario buscar por seus pedidos atravez dos botões *
 
 **Arthur Kist** - Desenvolvedor - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kist19) [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-kist-34b176254/) [![linkedin](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kist_19_/)
 
-**Licença** - [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/LICENSE)
+## ✅ Licença
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/LICENSE)
