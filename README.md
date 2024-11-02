@@ -82,7 +82,7 @@ Cadastro do cliente.
 
 ![Texto Alternativo](https://github.com/Kist19/AppBurgerAvaliativo/blob/master/cadastro.png?raw=true)
 
-## 3. Telas de Catalogo
+## 3. Telas de Catálogo
 
 Catálogos que permitem o usúario buscar por seus pedidos atravez dos botões **Voltar** e **Mais...**, com a opção de contato no botão **Fazer pedido**.
 
