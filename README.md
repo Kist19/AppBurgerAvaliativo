@@ -43,7 +43,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   ├── src
 │   │   ├── main
 │   │   │  ├── java/br/ulbra/appburgueravaliativo
-│   │   │  │  ├── MainActivity.java           # Atividade principal com AppBurgerAvaliativo
+│   │   │  │  ├── MainActivity.java          # Atividade principal com AppBurgerAvaliativo
 │   │   │  │  ├── CatalogoaActivity.java
 │   │   │  │  ├── CatalogobActivity.java
 │   │   │  │  ├── CatalogocActivity.java
